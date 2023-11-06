@@ -1,0 +1,49 @@
+<h1>Job Application Form</h1>
+
+<form action="submit_application.php" method="post" enctype="">
+
+    <h2>Personal Information</h2>
+
+    <label for="full_name">Full Name:</label>
+
+    <input type="text" value="full_name" name="full_name" required><br><br>
+
+    
+
+    <label for="dob">Date of Birth:</label>
+
+    <input type="date" value="dob" name="dob" required><br><br>
+
+    
+
+    <label for="gender">Gender:</label>
+
+    <input type="radio" value="male" name="gender" value="Male"> Male
+
+    <input type="radio" value="female" name="gender" value="Female"> Female
+
+    <input type="radio" value="other" name="gender" value="Other"> Other<br><br>
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" required></textarea><br><br>
+
+    <h2>Contact Information</h2>
+
+    <label for="email">Email Address:</label>
+
+    <input type="email" value="email" name="email" required><br><br>
+
+    
+
+    <label for="phone">Phone Number:</label>
+
+    <input type="tel" value="phone" name="phone" required><br><br>
+
+    
+
+    <h2>Upload Resume</h2>
+
+    <label for="resume">Upload your resume (PDF or Word document):</label>
+
+    <input type="file" value="resume" name="resume" accept=".pdf, .doc, .docx" required><br><br>
+
+    <input type="submit" <font color="green"> value="Submit Application"></font>
